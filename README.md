@@ -7,9 +7,10 @@ but figured I'd share it for anyone who could use it (maybe you can help!)
 Installation
 =============
 Still not sure if there is a better route but for now:
-1. Clone or download
-2. Unzip to $UserBaseDirectory ~~ "\\Applications" (Evaluate that in Mathematica to get the path)
-3. Should now be able to load it with Needs["YamlSupport`"]
+ 
+ 1. Clone or download
+ 2. Unzip to $UserBaseDirectory ~~ "\\Applications" (Evaluate that in Mathematica to get the path)
+ 3. Should now be able to load it with Needs["YamlSupport`"]
 
 TODO
 =======
