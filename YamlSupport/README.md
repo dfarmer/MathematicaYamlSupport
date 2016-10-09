@@ -4,11 +4,17 @@ Mathematica YAML Support
 This is just a quick wrapper around SnakeYaml to get YAML data into associations. I'm not quite happy with it as is, 
 but figured I'd share it for anyone who could use it (maybe you can help!)
 
+Installation
+=============
+Still not sure if there is a better route but for now:
+# Clone or download
+# Unzip to $UserBaseDirectory ~~ "\\Applications" (Evaluate that in Mathematica to get the path)
+# Should now be able to load it with Needs["YamlSupport`"]
+
 TODO
 =======
 * The JavaBlock stuff isn't quite right and it still seems to "leak" Java objects.
-* Figure out how to make it easy to install (I'm confused on the jar file bit)
-* Add export support (Honestly I'm not going to do this one, import was all I needed but if anyone else is interested it should be easy. PRs welcome.)
+* Make it easier to install?
 
 License
 ========= 
